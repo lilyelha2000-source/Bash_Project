@@ -1,0 +1,26 @@
+===== SYSTEM REPORT =====
+Date: 07 ماي, 2026 EEST 05:28:33 م
+
+CPU Usage:
+%Cpu(s): 19.5 us,  6.9 sy,  4.6 ni, 67.8 id,  0.0 wa,  1.1 hi,  0.0 si,  0.0 st 
+
+RAM Usage:
+               total        used        free      shared  buff/cache   available
+Mem:            11Gi       8.0Gi       1.0Gi       1.4Gi       4.1Gi       3.4Gi
+Swap:             0B          0B          0B
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+dev             5.7G     0  5.7G   0% /dev
+run             5.7G  1.8M  5.7G   1% /run
+efivarfs        128K  122K  1.8K  99% /sys/firmware/efi/efivars
+/dev/nvme0n1p3  130G   96G   27G  78% /
+tmpfs           5.7G  435M  5.3G   8% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           5.7G  123M  5.6G   3% /tmp
+/dev/nvme0n1p1   96M   74M   23M  77% /boot/efi
+tmpfs           1.2G  148K  1.2G   1% /run/user/1000
+/dev/nvme0n1p5   92G   60G   33G  65% /mnt/data
+
+System Uptime:
+ 17:28:34 up  1:33,  1 user,  load average: 1.22, 1.40, 1.08
